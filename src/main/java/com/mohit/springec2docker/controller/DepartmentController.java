@@ -29,6 +29,12 @@ public class DepartmentController {
 
 	@Autowired
 	private DepartmentService departmentService;
+	
+	@GetMapping("/")
+	private String home() {
+		
+		return ("<h1>welcome to home</h1>");
+	}
 
 	@PostMapping("/save")
 	public ResponseEntity<Object> saveDepartment(@RequestBody Department department) {
