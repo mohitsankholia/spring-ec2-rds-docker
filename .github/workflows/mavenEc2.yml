@@ -29,3 +29,6 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn clean install
+      
+    - name: Execute jar file
+      run: sudo kill -9 `sudo lsof -t -i:8080` & sudo java -jar /home/ubuntu/actions-runner/_work/spring-ec2-rds-docker/spring-ec2-rds-docker/target/spring-ec2-docker.jar &
