@@ -52,7 +52,7 @@
 		    <artifactId>springdoc-openapi-ui</artifactId>
 		    <version>1.7.0</version>
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>net.logstash.logback</groupId>
 			<artifactId>logstash-logback-encoder</artifactId>
 			<version>4.9</version>
@@ -60,13 +60,13 @@
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
-			<version>1.2.3</version><!--$NO-MVN-MAN-VER$-->
+			<version>1.2.3</version>$NO-MVN-MAN-VER$
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-core</artifactId>
-			<version>1.2.3</version><!--$NO-MVN-MAN-VER$-->
-		</dependency>
+			<version>1.2.3</version>$NO-MVN-MAN-VER$
+		</dependency>-->
 	</dependencies>
 
 	<build>
